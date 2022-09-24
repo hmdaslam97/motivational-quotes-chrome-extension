@@ -1,0 +1,38 @@
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    background: wheat;
+}
+
+#img{
+        border: 8px solid rgb(152, 39, 39);        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 400px;
+        /* height: auto; */
+}
+
+p {
+    width: 400px;
+    display: inner-flex;
+    margin: auto 0px;
+    font-size: 22px;
+    color: black;
+    background-color: rgb(252, 208, 215);
+    border-radius: 6px;
+    border: 5px solid rgb(6, 6, 6);
+    padding: 10px;/*seperates paragraph from border*/
+    margin: 10px;/*seperated from image*/
+}
+
+#author{
+    font-weight: bold;
+    font-size: medium;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

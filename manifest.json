@@ -1,0 +1,13 @@
+{
+    "name":"Motivational Quotes for You!",
+    "version": "0.0.1",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"quote.html",
+        "default_icon":"icon.png"
+    },
+    "icons":{
+        "128":"icon.png"
+    },
+    "permissions":["activeTab"]
+}
